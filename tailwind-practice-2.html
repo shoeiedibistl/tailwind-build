@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>tailwind-practice-2</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta name="theme-color" content="#4285f4">
+    <link href="https://vitejs.dev/logo.svg" rel="icon" type="image/x-icon">
+    <script type="module" crossorigin src="scripts/index.js?1738284374545"></script>
+    <link rel="stylesheet" crossorigin href="styles/index.css">
+  </head>
+  <body data-barba="wrapper">
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__inner">HEADER</div>
+      </header>
+      <main data-barba="container" data-barba-namespace="tailwind-practice-2">
+        <div class="tailwind-practice-2-content px-60px py-40px d:px-6 s:px-4">
+          <div class="back-button__wrapper w-60px h-60px left-60px absolute top-10 h-auto w-auto d:static"><a class="back-button desktop" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewbox="0 0 60 60" fill="none">
+                <rect x="-0.5" y="0.5" width="59" height="59" rx="11.5" transform="matrix(-1 0 0 1 59 0)" fill="white"></rect>
+                <rect x="-0.5" y="0.5" width="59" height="59" rx="11.5" transform="matrix(-1 0 0 1 59 0)" stroke="#E4E4E4"></rect>
+                <path d="M27.975 24.9417L22.9167 30M22.9167 30L27.975 35.0583M22.9167 30L37.5 30" stroke="#0B1226" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg></a><a class="back-button border-1px border-greyBorder mb-6 flex w-max items-center gap-4 gap-4 rounded-xl p-2 devices" href="#"><span class="back-button__icon block h-8 w-8 shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32" fill="none">
+                  <rect width="32" height="32" rx="8" transform="matrix(-1 0 0 1 32 0)" fill="#0070B8"></rect>
+                  <path d="M14.5825 12.4592L11.0417 16M11.0417 16L14.5825 19.5408M11.0417 16L21.25 16" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></span><span class="back-button__text text-16px block text-nowrap font-semibold">Назад в пресс-центр</span></a></div>
+          <div class="content w-890px mx-auto flex flex-col gap-20 d:gap-24px d:w-full">
+            <article class="article flex flex-col gap-10 d:gap-24px">
+              <div class="article__header">
+                <h1 class="title-48 text-5xl font-semibold d:text-2xl mb-6 d:mb-4">Итоги выставки EcwaTech
+                </h1>
+                <div class="flex flex-wrap items-center gap-4">
+                  <div class="news-label leading-140 rounded-xl bg-black px-3 py-1 text-white d:py-2px d:rounded-lg d:px-2 d:text-sm">Новости</div>
+                  <div class="date-label leading-140 px-3 py-1 d:py-2px d:px-2 d:text-sm">18 октября 2023</div><a class="hashtag-label leading-140 text-blueText d:text-sm" href="#">#выставки</a>
+                </div>
+              </div>
+              <div class="article__content text-xl d:text-base">
+                <p>В середине сентября прошла выставка EcwaTech, которая в 17-ый раз стала международной площадкой для встречи специалистов в области коммунальной и промышленной водоподготовки, водоснабжения, водоотведения и очистки сточных вод. Мы наконец готовы рассказать и показать вам, как это было!</p><br/><br class="desktop"/>
+                <div class="article__picture rounded-20px w-full overflow-hidden">
+                  <picture class="picture block h-full w-full">
+                    <source class="lazyload" type="image/webp" srcset="webp/fancy_img1.webp"/>
+                    <source class="lazyload" type="image/jpeg" srcset="images/fancy_img1.jpg"/><img class="picture__img lazyload" src="images/fancy_img1.jpg" data-src="images/fancy_img1.jpg" alt="fancy_img1.jpg"/>
+                  </picture>
+                </div><br/><br class="desktop"/>
+                <p>Больше фотографий вы можете найти в нашем официальном сообществе ВКонтакте, где мы всегда оперативно публикуем новости компании, фото и видео с наших мероприятий.</p><br/>
+                <p>Неотъемлемой изюминкой наших стендов стало то, что мы всегда готовы вас удивлять! Ecwatech2023 не стал исключением. Впервые на территории РФ нами была представлена модель серии CDM в высокотемпературном исполнении.</p><br/>
+                <p>Помимо этого, мы презентовали установку повышения давления нового поколения, собранную на новом производстве в Подмосковье на базе насосов CDM от компании CNP в паре с автоматикой Aikon. И это еще не всё! Подробнее вы можете узнать в нашем видео.</p><br/>
+                <p>Мы благодарим всех гостей за посещение выставки и нашего стенда! До новых встреч!</p>
+              </div>
+            </article>
+          </div>
+          <div class="more-news mt-120px border-t-1px border-greyBorder pt-5 d:mt-12 d:pt-3">
+            <h2 class="title-32 text-32px font-semibold d:text-xl mb-10 d:mb-6">Похожие новости
+            </h2>
+            <div class="more-news__cards gap-24px grid grid-cols-3 d:mx-negative-24px s:mx-negative-16px d:flex d:w-screen d:gap-4 d:overflow-auto d:px-6 s:px-4"><a class="news-card h-740px rounded-20px border-greyBorder border-1px p-24px relative flex shrink-0 flex-col gap-10 d:h-351px d:w-253px gap-3 d:rounded-2xl d:p-2" href="#">
+                <div class="news-card__image relative flex shrink-0 flex-col gap-6 overflow-hidden rounded-xl d:leading-120 d:rounded-xl">
+                  <picture class="picture block h-full w-full">
+                    <source class="lazyload" type="image/webp" srcset="webp/fancy_img1.webp"/>
+                    <source class="lazyload" type="image/jpeg" srcset="images/fancy_img1.jpg"/><img class="picture__img lazyload" src="images/fancy_img1.jpg" data-src="images/fancy_img1.jpg" alt="fancy_img1.jpg"/>
+                  </picture>
+                  <div class="news-card__date leading-140 absolute left-5 top-5 z-10 rounded-xl px-3 py-1 text-white backdrop-blur-md d:py-2px d:leading-120 left-2 d:top-2 d:rounded-lg d:px-2 d:text-xs">18 октября 2023</div>
+                  <div class="news-card__chapter leading-140 absolute bottom-5 left-5 z-10 rounded-xl bg-black px-3 py-1 text-white d:py-2px d:leading-120 left-2 d:bottom-2 d:rounded-lg d:px-2 d:text-xs">Новости</div>
+                </div>
+                <div class="news-card__info flex h-full flex-col justify-between gap-2 px-10 d:px-2">
+                  <div class="news-card__title text-32px line-clamp-4 font-semibold d:leading-120 d:line-clamp-3 d:text-base">Итоги выставки EcwaTech</div>
+                  <div class="news-card__hashtags flex flex-wrap items-center gap-2 d:w-36 d:gap-y-0">
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#выставки</div>
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#новости</div>
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#события</div>
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#пресс-центр</div>
+                  </div>
+                </div>
+                <div class="news-card__icon absolute bottom-5 right-5 h-11 w-11 rotate-180 d:bottom-4 d:right-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="8" transform="matrix(-1 0 0 1 32 0)" fill="#0070B8"></rect>
+                    <path d="M14.5825 12.4592L11.0417 16M11.0417 16L14.5825 19.5408M11.0417 16L21.25 16" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div></a><a class="news-card h-740px rounded-20px border-greyBorder border-1px p-24px relative flex shrink-0 flex-col gap-10 d:h-351px d:w-253px gap-3 d:rounded-2xl d:p-2" href="#">
+                <div class="news-card__image relative flex shrink-0 flex-col gap-6 overflow-hidden rounded-xl d:leading-120 d:rounded-xl">
+                  <picture class="picture block h-full w-full">
+                    <source class="lazyload" type="image/webp" srcset="webp/fancy_img1.webp"/>
+                    <source class="lazyload" type="image/jpeg" srcset="images/fancy_img1.jpg"/><img class="picture__img lazyload" src="images/fancy_img1.jpg" data-src="images/fancy_img1.jpg" alt="fancy_img1.jpg"/>
+                  </picture>
+                  <div class="news-card__date leading-140 absolute left-5 top-5 z-10 rounded-xl px-3 py-1 text-white backdrop-blur-md d:py-2px d:leading-120 left-2 d:top-2 d:rounded-lg d:px-2 d:text-xs">18 октября 2023</div>
+                  <div class="news-card__chapter leading-140 absolute bottom-5 left-5 z-10 rounded-xl bg-black px-3 py-1 text-white d:py-2px d:leading-120 left-2 d:bottom-2 d:rounded-lg d:px-2 d:text-xs">Новости</div>
+                </div>
+                <div class="news-card__info flex h-full flex-col justify-between gap-2 px-10 d:px-2">
+                  <div class="news-card__title text-32px line-clamp-4 font-semibold d:leading-120 d:line-clamp-3 d:text-base">Кавитация и NPSHr, расчет максимальной высоты подъёма</div>
+                  <div class="news-card__hashtags flex flex-wrap items-center gap-2 d:w-36 d:gap-y-0">
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#выставки</div>
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#новости</div>
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#события</div>
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#пресс-центр</div>
+                  </div>
+                </div>
+                <div class="news-card__icon absolute bottom-5 right-5 h-11 w-11 rotate-180 d:bottom-4 d:right-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="8" transform="matrix(-1 0 0 1 32 0)" fill="#0070B8"></rect>
+                    <path d="M14.5825 12.4592L11.0417 16M11.0417 16L14.5825 19.5408M11.0417 16L21.25 16" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div></a><a class="news-card h-740px rounded-20px border-greyBorder border-1px p-24px relative flex shrink-0 flex-col gap-10 d:h-351px d:w-253px gap-3 d:rounded-2xl d:p-2" href="#">
+                <div class="news-card__image relative flex shrink-0 flex-col gap-6 overflow-hidden rounded-xl d:leading-120 d:rounded-xl">
+                  <picture class="picture block h-full w-full">
+                    <source class="lazyload" type="image/webp" srcset="webp/fancy_img1.webp"/>
+                    <source class="lazyload" type="image/jpeg" srcset="images/fancy_img1.jpg"/><img class="picture__img lazyload" src="images/fancy_img1.jpg" data-src="images/fancy_img1.jpg" alt="fancy_img1.jpg"/>
+                  </picture>
+                  <div class="news-card__date leading-140 absolute left-5 top-5 z-10 rounded-xl px-3 py-1 text-white backdrop-blur-md d:py-2px d:leading-120 left-2 d:top-2 d:rounded-lg d:px-2 d:text-xs">18 октября 2023</div>
+                  <div class="news-card__chapter leading-140 absolute bottom-5 left-5 z-10 rounded-xl bg-black px-3 py-1 text-white d:py-2px d:leading-120 left-2 d:bottom-2 d:rounded-lg d:px-2 d:text-xs">Новости</div>
+                </div>
+                <div class="news-card__info flex h-full flex-col justify-between gap-2 px-10 d:px-2">
+                  <div class="news-card__title text-32px line-clamp-4 font-semibold d:leading-120 d:line-clamp-3 d:text-base">Насосы серии NIS вошли в складскую программу CNP</div>
+                  <div class="news-card__hashtags flex flex-wrap items-center gap-2 d:w-36 d:gap-y-0">
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#выставки</div>
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#новости</div>
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#события</div>
+                    <div class="hashtag-label leading-140 text-blueText d:text-sm">#пресс-центр</div>
+                  </div>
+                </div>
+                <div class="news-card__icon absolute bottom-5 right-5 h-11 w-11 rotate-180 d:bottom-4 d:right-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="8" transform="matrix(-1 0 0 1 32 0)" fill="#0070B8"></rect>
+                    <path d="M14.5825 12.4592L11.0417 16M11.0417 16L14.5825 19.5408M11.0417 16L21.25 16" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div></a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__inner">FOOTER</div>
+      </footer>
+    </div>
+  </body>
+</html>
